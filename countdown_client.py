@@ -4,7 +4,6 @@ from rclpy.node import Node
 
 from my_ros2_package.action import Countdown
 
-
 class CountdownClient(Node):
     def __init__(self):
         # Initializes "countdown_client" node
